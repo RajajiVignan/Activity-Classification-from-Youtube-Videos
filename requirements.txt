@@ -111,6 +111,7 @@ watchdog==2.1.2
 wcwidth==0.2.5
 webencodings==0.5.1
 Werkzeug==2.0.1
+wheel==0.36.2
 widgetsnbextension==3.5.1
 wincertstore==0.2
 wrapt==1.12.1
