@@ -119,7 +119,9 @@ def predict(sample_video):
   ''': {probabilities[i] * 100:5.2f}%'''
   #print("Top 5 actions:")
   for i in np.argsort(probabilities)[::-1][:1]:
-    return print(f"{labels[i]:22}")
+    st.write("The Most probable activity in the video is : ")
+    st.success(f"{labels[i]:22}")
+    #return print(f"{labels[i]:22}")
 
 def time_change(first):
     y = first//1
