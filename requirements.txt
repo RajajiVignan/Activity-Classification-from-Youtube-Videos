@@ -69,7 +69,6 @@ proglog==0.1.9
 prometheus-client==0.10.1
 prompt-toolkit==3.0.18
 protobuf==3.17.1
-pyarrow==4.0.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycparser==2.20
